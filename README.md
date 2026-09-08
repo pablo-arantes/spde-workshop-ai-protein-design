@@ -1,7 +1,7 @@
 # AI for Protein Design Workshop
 
-[![Open Notebook 1 In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/spde-workshop-ai-protein-design/blob/main/notebooks/Workshop_RFD3_Colab_v4.ipynb)
-[![Open Notebook 2 In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/spde-workshop-ai-protein-design/blob/main/notebooks/Workshop_PyRosetta_Filters_Colab.ipynb)
+[![Open Notebook 1 In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/spde-workshop-ai-protein-design/blob/main/Notebook1_RFdiffusion3_Binder_Design.ipynb)
+[![Open Notebook 2 In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/pablo-arantes/spde-workshop-ai-protein-design/blob/main/Notebook2_PyRosetta_Physics_Filters.ipynb)
 
 Hands-on workshop materials for the **2nd Symposium on Protein Design and Engineering (SPDE)** pre-event workshop **"AI for Protein Design"**, held October 5--6, 2026 at [CNPEM](https://cnpem.br/), Campinas, Brazil.
 
@@ -41,15 +41,15 @@ spde-workshop-ai-protein-design/
 |-- README.md                        <-- This file
 |-- LICENSE
 |
-|-- notebooks/
-|   |-- Workshop_RFD3_Colab_v4.ipynb
-|   |   Design binders with RFdiffusion3 + LigandMPNN/solMPNN + ColabFold.
-|   |   Screens by ipTM, pLDDT, binder RMSD. Produces a ZIP of designs.
-|   |
-|   |-- Workshop_PyRosetta_Filters_Colab.ipynb
-|       Takes the ZIP from Notebook 1 and applies Rosetta-level physics
-|       validation: FastRelax, ddG, SAP, contact molecular surface, SASA,
-|       buried unsatisfied H-bonds. Selects best candidates.
+|
+|-- Notebook1_RFdiffusion3_Binder_Design.ipynb
+|   Design binders with RFdiffusion3 + LigandMPNN/solMPNN + ColabFold.
+|   Screens by ipTM, pLDDT, binder RMSD. Produces a ZIP of designs.
+|   
+|-- Notebook2_PyRosetta_Physics_Filters.ipynb
+|   Takes the ZIP from Notebook 1 and applies Rosetta-level physics
+|   validation: FastRelax, ddG, SAP, contact molecular surface, SASA,
+|   buried unsatisfied H-bonds. Selects best candidates.
 |
 |-- guides/
 |   |-- Workshop_RFD3_Student_Guide.pdf
@@ -145,10 +145,15 @@ PDF reference guides are provided in the `guides/` folder:
 
 This workshop is part of the **2nd Symposium on Protein Design and Engineering (SPDE)**, a meeting organized by CNPEM with support from RosettaCommons and Serrapilheira, co-organized with Fiocruz and EMS. The symposium covers the full spectrum of protein design -- AI and computational methods, de novo design of therapeutic binders, self-assembling proteins, biosensors, therapeutic peptides, and vaccines.
 
-### Workshop Instructors
+### Workshop Instructor
 
 - **Pablo Arantes** (EMS, Brazil) -- Workshop lead, scientific committee
+
+
+### Organizing Committee
+
 - Helder Ribeiro (CNPEM, Brazil) -- Scientific committee
+- Pablo Arantes (EMS, Brazil) -- Workshop lead, scientific committee
 - Roberto Lins (Fiocruz, Brazil) -- Scientific committee
 
 ### Key Dates
